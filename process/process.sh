@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ROOT=/indata
-OUT=/outdata/lb.json
+ROOT=/input
+OUT=/output/lb.json
 
 for IN in $ROOT/*.epub; do
     CMD="pandoc --from epub $IN --to plain | jq -Rsc '{text: .}'"
