@@ -1,0 +1,7 @@
+name: litteraturbanken
+kind: process
+depends_on:
+  input: 
+    repo: apsod/litb
+    subpath: ingest
+    branch: small
