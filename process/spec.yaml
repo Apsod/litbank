@@ -2,6 +2,6 @@ name: litteraturbanken
 kind: process
 depends_on:
   input: 
-    repo: apsod/litb
+    repo: apsod/litbank.git
     subpath: ingest
     branch: small
