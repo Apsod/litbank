@@ -4,4 +4,4 @@ depends_on:
   input: 
     repo: apsod/litbank.git
     subpath: ingest
-    branch: small
+    branch: main
